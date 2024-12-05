@@ -27,7 +27,7 @@ pip install rsa paramiko
 * It checks if the recipient's public key exists in a file named 'Kali_pubkey.pem' (you can replace 'Kali' with the recipient's name). If found, it encrypts the file using the recipient's public key and saves it as 'encrypted.txt'.
 * If the recipient's public key is not found, it displays an error message.
 
- 4. Decrypt a File:
+### 4. Decrypt a File:
 * The decrypt(file, key) function takes the name of the file to be decrypted and the private key as input.
 * It attempts to decrypt the file using the private key and returns the decrypted content as plain text.
 * If decryption fails (e.g., due to an incorrect key), it returns False.
